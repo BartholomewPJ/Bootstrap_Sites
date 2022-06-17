@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Bootstrap 4 Lessons - Project 1</title>
+</head>
+
+<body>
+
+  <!-- ##### Navbar ##### -->
+  <nav class="navbar navbar-expand-md navbar-light bg-dark fixed-top">
+    <a href="#" class="navbar-brand"><i class="fas fa-child text-warning fa-2x"></i></a>
+    <button type="button" class="navbar-toggler bg-light" data-toggle="collapse" data-target="#nav"><span
+        class="navbar-toggler-icon"></span></button>
+
+
+    <div class="collapse navbar-collapse justify-content-between" id="nav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link text-light text-uppercase font-weight-bold px-3" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link text-light text-uppercase font-weight-bold px-3" href="#">Skills</a>
+        </li>
+        <li class="nav-item dropdown"><a class="nav-link text-light text-uppercase font-weight-bold px-3"
+            data-toggle="dropdown" href="#">Projects</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Project 1</a>
+            <a class="dropdown-item" href="#">Project 2</a>
+            <a class="dropdown-item" href="#">Project 3</a>
+          </div>
+        </li>
+        <li class="nav-item"><a class="nav-link text-light text-uppercase font-weight-bold px-3" href="#">Team</a></li>
+        <li class="nav-item"><a class="nav-link text-light text-uppercase font-weight-bold px-3" href="#">Contact</a>
+        </li>
+      </ul>
+
+      <form class="form-inline ml-3">
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="Search">
+          <div class="input-group-append">
+            <button class="btn btn-light" type="button"><i class="fas fa-search text-muted"></i></button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </nav>
+  <!-- ##### End Navbar ##### -->
+
+  <!-- ##### Banner ##### -->
+  <section>
+    <div class="container-fluid">
+      <div class="row bg-info justify-content-center align-items-center" style="height:100vh;">
+        <div class="col-sm-10 text-center">
+          <h1 class="display-2"><span class="text-warning">Pure Bootstrap</span>
+            <span class="text-white font-weight-bold">Website</span>
+          </h1>
+          <h2 class="font-weight-light font-italic text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Quo,
+            debitis?</h2>
+          <!-- Using a link element to create a button-->
+          <a href="#" class="btn btn-warning btn-lg px-4 m-3">Press Here</a>
+          <a href="#" class="btn btn-danger btn-lg px-4 m-3">Press Here</a>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- ##### End of Banner ##### -->
+
+  <!-- ##### Skills Section ##### -->
+  <section class="bg-light p-5">
+    <div class="container-fluid">
+
+      <!-- Title -->
+      <div class="row">
+        <div class="col text-center mb-3">
+          <h1 class="text-warning display-2">Skills</h1>
+          <p class="lead text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta aut repudiandae
+            quia!</p>
+        </div>
+      </div>
+      <!-- End Title -->
+
+      <div class="row text-center">
+        <div class="col-lg-4 col-sm-10 mx-auto mb-5">
+          <i class="fas fa-desktop fa-6x text-warning mb-3"></i>
+          <h1 class="text-secondary">Development</h1>
+          <p class="text-muted my-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut rem quibusdam dolore
+            quaerat velit culpa unde
+            quae hic laboriosam vel!</p>
+          <a href="#" class="btn btn-outline-warning">Learn More</a>
+        </div>
+
+        <div class="col-lg-4 col-sm-10 mx-auto mb-5">
+          <i class="far fa-edit fa-6x text-warning mb-3"></i>
+          <h1 class="text-secondary">Design</h1>
+          <p class="text-muted my-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut rem quibusdam dolore
+            quaerat velit culpa unde
+            quae hic laboriosam vel!</p>
+          <a href="#" class="btn btn-outline-warning">Learn More</a>
+        </div>
+
+        <div class="col-lg-4 col-sm-10 mx-auto mb-5">
+          <i class="fas fa-cogs fa-6x text-warning mb-3"></i>
+          <h1 class="text-secondary">Creativity</h1>
+          <p class="text-muted my-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut rem quibusdam dolore
+            quaerat velit culpa unde
+            quae hic laboriosam vel!</p>
+          <a href="#" class="btn btn-outline-warning">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ##### End of Skills Section ##### -->
+
+  <!-- ##### Projects Section ##### -->
+  <section class="p-5">
+    <div class="container-fluid">
+      <!-- Title -->
+      <div class="row">
+        <div class="col text-center mb-3">
+          <h1 class="text-warning display-2">Projects</h1>
+          <p class="lead text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta aut repudiandae
+            quia!</p>
+        </div>
+      </div>
+      <!-- End Title -->
+
+      <div class="row">
+        <div class="col-lg-3 col-sm-6">
+          <img src="images/project1.jpg" class="img-thumbnail">
+          <h3 class="text-success">Project One</h3>
+          <p class="text-muted mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus quidem vero
+            recusandae.</p>
+        </div>
+
+        <div class="col-lg-3 col-sm-6">
+          <img src="images/project2.jpg" class="img-thumbnail">
+          <h3 class="text-success">Project Two</h3>
+          <p class="text-muted mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus quidem vero
+            recusandae.</p>
+        </div>
+
+        <div class="col-lg-3 col-sm-6">
+          <img src="images/project3.jpg" class="img-thumbnail">
+          <h3 class="text-success">Project Three</h3>
+          <p class="text-muted mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus quidem vero
+            recusandae.</p>
+        </div>
+
+        <div class="col-lg-3 col-sm-6">
+          <img src="images/project4.jpg" class="img-thumbnail">
+          <h3 class="text-success">Project Four</h3>
+          <p class="text-muted mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus quidem vero
+            recusandae.</p>
+        </div>
+      </div>
+
+
+    </div>
+
+  </section>
+  <!-- ##### End of Projects Section ##### -->
+
+  <!-- ##### Team Section ##### -->
+  <section class="p-sm-5 p-2 bg-secondary">
+    <div class="container-fluid">
+      <!-- Title -->
+      <div class="row">
+        <div class="col text-center mb-3">
+          <h1 class="text-warning display-2">Team</h1>
+          <p class="lead text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta aut repudiandae
+            quia!</p>
+        </div>
+      </div>
+      <!-- End Title -->
+
+      <div class="row">
+        <div class="col-lg-4 col-sm-10 mx-auto mb-4">
+          <div class="card">
+            <img src="images/kid1.jpg" class="card-img-top">
+            <div class="card-body">
+              <div class="card-title">
+                <h3 class="text-muted">Michael</h3>
+              </div>
+              <div class="card-subtitle">
+                <p class="lead text-secondary">Lorem ipsum dolor sit amet consectetur.</p>
+              </div>
+              <div class="text-right">
+                <a href="#"><i class="fab fa-facebook fa-2x mx-2 text-primary"></i></a>
+                <a href="#"><i class="fab fa-twitter fa-2x mx-2 text-info"></i></a>
+                <a href="#"><i class="fab fa-youtube fa-2x mx-2 text-danger"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-10 mx-auto mb-4">
+          <div class="card">
+            <img src="images/kid2.jpg" class="card-img-top">
+            <div class="card-body">
+              <div class="card-title">
+                <h3 class="text-muted">Jack</h3>
+              </div>
+              <div class="card-subtitle">
+                <p class="lead text-secondary">Lorem ipsum dolor sit amet consectetur.</p>
+              </div>
+              <div class="text-right">
+                <a href="#"><i class="fab fa-facebook fa-2x mx-2 text-primary"></i></a>
+                <a href="#"><i class="fab fa-twitter fa-2x mx-2 text-info"></i></a>
+                <a href="#"><i class="fab fa-youtube fa-2x mx-2 text-danger"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-10 mx-auto mb-4">
+          <div class="card">
+            <img src="images/kid3.jpg" class="card-img-top">
+            <div class="card-body">
+              <div class="card-title">
+                <h3 class="text-muted">Anne</h3>
+              </div>
+              <div class="card-subtitle">
+                <p class="lead text-secondary">Lorem ipsum dolor sit amet consectetur.</p>
+              </div>
+              <div class="text-right">
+                <a href="#"><i class="fab fa-facebook fa-2x mx-2 text-primary"></i></a>
+                <a href="#"><i class="fab fa-twitter fa-2x mx-2 text-info"></i></a>
+                <a href="#"><i class="fab fa-youtube fa-2x mx-2 text-danger"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- ##### End of Team Section ##### -->
+
+  <!-- ##### Progress Section ##### -->
+  <section class="p-5">
+    <div class="container-fluid">
+      <!-- Title -->
+      <div class="row">
+        <div class="col text-center mb-3">
+          <h1 class="text-warning display-2">Progress</h1>
+          <p class="lead text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta aut repudiandae
+            quia!</p>
+        </div>
+      </div>
+      <!-- End Title -->
+
+      <div class="row justify-content-center">
+        <div class="col-lg-6 col-sm-10text-secondary">
+          <h2>HTML</h2>
+          <div class="progress bg-secondary mb-3">
+            <div class="progress-bar" style="width:50%">50%</div>
+          </div>
+          <h2>CSS</h2>
+          <div class="progress bg-secondary mb-3">
+            <div class="progress-bar bg-danger" style="width:70%">70%</div>
+          </div>
+          <h2>JacaScript</h2>
+          <div class="progress bg-secondary mb-3">
+            <div class="progress-bar bg-warning" style="width:85%">85%</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ##### End of Progress Section ##### -->
+
+  <!-- ##### Contact Section ##### -->
+  <section class="p-5 bg-light">
+    <div class="container-fluid">
+      <!-- Title -->
+      <div class="row">
+        <div class="col text-center mb-3">
+          <h1 class="text-warning display-2">Contact Us</h1>
+          <p class="lead text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta aut repudiandae
+            quia!</p>
+        </div>
+      </div>
+      <!-- End Title -->
+
+      <div class="row justify-content-center">
+
+        <div class="col-lg-6 col-md-8 col-sm-10">
+          <div class="text-center text-secondary">
+            <h2>Got Questions?</h2>
+            <p>Stay Connected</p>
+          </div>
+          <form class="text-muted">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" class="form-control" id="name">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" id="email">
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea class="form-control" id="message" rows="3"></textarea>
+            </div>
+            <button class="btn btn-outline-warning btn-block" type="submit">Submit Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ##### End of Contact Section ##### -->
+
+  <!-- ##### Footer ##### -->
+  <footer class="bg-secondary">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <h1 class="text-white font-weight-light p-3">Pure Bootstrap Project</h1>
+          <h3 class="text-light font-weight-light font-italic mb-3">Lorem ipsum dolor sit amet.</h3>
+          <div class="py-2">
+            <a href="#"><i class="fab fa-facebook fa-2x text-primary mx-3"></i></a>
+            <a href="#"><i class="fab fa-google-plus fa-2x text-danger mx-3"></i></a>
+            <a href="#"><i class="fab fa-twitter fa-2x text-info mx-3"></i></a>
+            <a href="#"><i class="fab fa-youtube fa-2x text-danger mx-3"></i></a>
+          </div>
+          <p class="text-light py-4 m-0">&copy;Copyright 2022 - Design by CodeandCreate</p>
+
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- ##### End of Footer -->
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+    crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
